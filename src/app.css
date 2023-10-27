@@ -1,0 +1,76 @@
+.search input {
+    display: inline-block;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.search button {
+    position: relative;
+    right: 10%;
+    border: none;
+    background-color: unset;
+}
+
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 120%;
+    }
+
+    p {
+        font-size: 70%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    li {
+        font-size: 70%;
+    }
+
+    .myNavbar img{
+        width: 12%;
+    }
+    .myNavbar div select {
+        margin-top: 30%;
+        width: 50%;
+        font-size: 50%;
+    }
+    .myNavbar div div input{
+        width: 5%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    h1 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 50%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
+
+    li {
+        font-size: 50%;
+    }
+}
+
+
+/* For change font Family */
+#sansSerif {
+    font-family: sans-serif;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#mono {
+    font-family: monospace;
+}
